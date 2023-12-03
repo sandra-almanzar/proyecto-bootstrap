@@ -1,0 +1,71 @@
+h1 {
+  font-family: volkhov;
+}
+.btn-orange {
+  background-color: #fa7436;
+  color: white;
+  box-shadow: 3px 3px 0px 0px rgba(250, 117, 56, 0.1);
+}
+.btn-orange:hover {
+  background-color: white;
+  color: #fa7436;
+}
+.btn-orange-reverse {
+  background-color: white;
+  color: #fa7436;
+}
+.btn-orange-reverse:hover {
+  background-color: #fa7436;
+  color: white;
+}
+header {
+  background-color: #fefcfb;
+}
+.orange-span {
+  color: #fa7436;
+}
+.banner-p {
+  font-family: poppins;
+}
+
+.btn-outline-orange {
+  color: #fa7436;
+  border: 1px solid #fa7436;
+}
+.btn-outline-orange:hover {
+  background-color: #fa7436;
+  color: white;
+}
+.div-menu {
+  background-color: white;
+}
+.bg-gray {
+  background-color: #f7f8fc;
+}
+#things img {
+  width: 40px;
+}
+.bg-orange{
+  background-color:#fa7436 ;
+}
+
+ul{
+  list-style-type: none;
+}
+.p-color{
+  color: #666666;
+}
+#p-suscribe{
+  margin-bottom: -150px;
+  background-image: url("../img/Elements.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#p-footer{
+  padding-top: 150px
+}
+#testimonial{
+  background-image: url("../img/bgavion.png");
+  background-position: 88% 12%;
+  background-repeat: no-repeat;
+}
