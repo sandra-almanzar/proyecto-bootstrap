@@ -1,6 +1,8 @@
-h1 {
+h1,
+h2 {
   font-family: volkhov;
 }
+
 .btn-orange {
   background-color: #fa7436;
   color: white;
@@ -45,27 +47,40 @@ header {
 #things img {
   width: 40px;
 }
-.bg-orange{
-  background-color:#fa7436 ;
+#things {
+  background-image: url("../img/avion-things.png");
+  background-position: 72% 23%;
+  background-repeat: no-repeat;
+}
+.bg-orange {
+  background-color: #fa7436;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
-.p-color{
+.p-color {
   color: #666666;
 }
-#p-suscribe{
+
+#vacation {
+  background-image: url("../img/palmas-vacation.png");
+  background-position: 64% 16%;
+  background-repeat: no-repeat;
+}
+
+#testimonial {
+  background-image: url("../img/bgavion.png");
+  background-position: 88% 12%;
+  background-repeat: no-repeat;
+}
+
+#p-suscribe {
   margin-bottom: -150px;
   background-image: url("../img/Elements.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-#p-footer{
-  padding-top: 150px
-}
-#testimonial{
-  background-image: url("../img/bgavion.png");
-  background-position: 88% 12%;
-  background-repeat: no-repeat;
+#p-footer {
+  padding-top: 150px;
 }

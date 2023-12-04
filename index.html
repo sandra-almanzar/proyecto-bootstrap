@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="styles/index.css" />
     <title>Trabook</title>
   </head>
-  <body class="container-fluid">
+  <body class="container-fluid ">
     <!-- Inicia Header -->
     <header class="container-fluid">
       <!--Inica container barra de navegación-->
@@ -166,7 +166,7 @@
       <div class="container my-5">
         <!--Inicia row de título-->
         <div class="row row-cols-1 justify-content-center">
-          <h2 class="text-center col mt-5">
+          <h2 class="text-center col mt-5 fw-semibold">
             Things you need <span class="orange-span">to do</span>
           </h2>
           <p class="text-center col-4 my-2 text-secondary">
@@ -216,7 +216,7 @@
       <div class="container my-5">
         <!--Inicia row de título-->
         <div class="row row-cols-1 justify-content-center">
-          <h2 class="text-center col mt-5">
+          <h2 class="text-center col mt-5 fw-semibold">
             Exclusive <span class="orange-span">deals & discounts</span>
           </h2>
           <p class="text-center text-secondary col-4 my-2">
@@ -228,24 +228,21 @@
         <!--Inicia cards-->
         <div class="row mt-4">
           <div class="card col m-4 p-0 border-0 shadow-sm">
-            <img
-              src="./img/Image (1).png"
-              alt=""
-              class="card-img img-fluid pb-2"
-            />
+            <img src="./img/Image (1).png" alt="" class="card-img img-fluid" />
             <div class="card-body ms-0 ps-3">
               <div class="row row-cols-2 d-flex">
                 <h5 class="card-title">Madrid</h5>
-                <span class="text-end"
-                  ><i class="me-1 bi bi-star-fill text-warning"></i>4.8</span
+                <span class="text-end text-secondary"
+                  ><i class="me-2 bi bi-star-fill text-warning"></i>4.8</span
                 >
-                <p class="card-text fs-6 text-secondary">
+                <p class="card-text fs-6 text-secondary mt-2">
                   <i class="me-1 bi bi-geo-alt-fill"></i>Spain
                 </p>
-                <div class="text-end">
+                <div class="text-end mt-2">
                   <span class="me-2 text-secondary text-decoration-line-through"
                     >$950</span
-                  ><span class="bg-danger-subtle orange-span rounded-1"
+                  ><span
+                    class="bg-danger-subtle orange-span rounded-1 p-1 fw-semibold"
                     >$850</span
                   >
                 </div>
@@ -256,37 +253,74 @@
             <img
               src="./img/image2.jpeg"
               alt=""
-              class="card-img rounded-2 img-fluid"
+              class="card-img img-fluid rounded-2"
             />
             <div class="card-body ms-0 ps-3">
-              <h5 class="card-title">Firenze</h5>
-              <p class="card-text fs-6 text-secondary pt-2">Italy</p>
+              <div class="row row-cols-2 d-flex">
+                <h5 class="card-title">Firenze</h5>
+                <span class="text-end text-secondary"
+                  ><i class="me-2 bi bi-star-fill text-warning"></i>4.5</span
+                >
+                <p class="card-text fs-6 text-secondary mt-2">
+                  <i class="me-1 bi bi-geo-alt-fill"></i>Italy
+                </p>
+                <div class="text-end mt-2">
+                  <span class="me-2 text-secondary text-decoration-line-through"
+                    >$850</span
+                  ><span
+                    class="bg-danger-subtle orange-span rounded-1 p-1 fw-semibold"
+                    >$750</span
+                  >
+                </div>
+              </div>
             </div>
           </div>
           <div class="card col m-4 p-0 border-0 shadow-sm">
-            <img
-              src="./img/Image (2).png"
-              alt=""
-              class="card-img pb-2 img-fluid"
-            />
+            <img src="./img/Image (2).png" alt="" class="card-img img-fluid" />
             <div class="card-body ms-0 ps-3">
-              <h5 class="card-title">Paris</h5>
-              <p class="card-text fs-6 text-secondary pt-2">France</p>
+              <div class="row row-cols-2 d-flex">
+                <h5 class="card-title">Paris</h5>
+                <span class="text-end text-secondary"
+                  ><i class="me-2 bi bi-star-fill text-warning"></i>4.4</span
+                >
+                <p class="card-text fs-6 text-secondary mt-2">
+                  <i class="me-1 bi bi-geo-alt-fill"></i>France
+                </p>
+                <div class="text-end mt-2">
+                  <span class="me-2 text-secondary text-decoration-line-through"
+                    >$699</span
+                  ><span
+                    class="bg-danger-subtle orange-span rounded-1 p-1 fw-semibold"
+                    >$599</span
+                  >
+                </div>
+              </div>
             </div>
           </div>
           <div class="card col m-4 p-0 border-0 shadow-sm">
-            <img
-              src="./img/Image (3).png"
-              alt=""
-              class="card-img pb-2 img-fluid"
-            />
+            <img src="./img/Image (3).png" alt="" class="card-img img-fluid" />
             <div class="card-body ms-0 ps-3">
-              <h5 class="card-title">London</h5>
-              <p class="card-text fs-6 text-secondary pt-2">UK</p>
+              <div class="row row-cols-2 d-flex">
+                <h5 class="card-title">London</h5>
+                <span class="text-end text-secondary"
+                  ><i class="me-2 bi bi-star-fill text-warning"></i>4.8</span
+                >
+                <p class="card-text fs-6 text-secondary mt-2">
+                  <i class="me-1 bi bi-geo-alt-fill"></i>UK
+                </p>
+                <div class="text-end mt-2">
+                  <span class="me-2 text-secondary text-decoration-line-through"
+                    >$850</span
+                  ><span
+                    class="bg-danger-subtle orange-span rounded-1 p-1 fw-semibold"
+                    >$850</span
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="d-grid gap-2 d-flex justify-content-center">
+        <div class="d-grid gap-2 d-flex justify-content-center mt-5">
           <button class="btn rounded-circle btn-outline-secondary me-4">
             <i class="bi bi-arrow-left fs-4 text-center"></i>
           </button>
@@ -300,12 +334,12 @@
     </section>
     <!--Termina sección Deals-->
     <!--Inicia sección Vacation-->
-    <section class="container-fluid" id="vacation">
+    <section class="container-fluid pt-5 pb-3" id="vacation">
       <!--Inicia container para centrar el contenido-->
       <div class="container my-5">
         <!--Inicia row de título-->
         <div class="row row-cols-1 justify-content-center">
-          <h2 class="text-center col mt-5">
+          <h2 class="text-center col mt-5 fw-semibold">
             Best <span class="orange-span">vacation plan</span>
           </h2>
           <p class="text-center text-secondary col-4 my-2">
@@ -326,23 +360,53 @@
         <div class="row mt-4">
           <div class="card col m-4 p-0 border-0 shadow-sm">
             <img src="./img/imageb1.jpeg" alt="" class="card-img rounded-4" />
-            <div class="card-body ms-0 ps-3 pt-4">
-              <h5 class="card-title">Rome, italy</h5>
-              <p class="card-text fs-6 text-secondary">10 Days Trip</p>
+            <div class="card-body ms-0 ps-3">
+              <div class="row row-cols-2 d-flex">
+                <h5 class="card-title">Rome, Italy</h5>
+                <span class="text-end orange-span fw-semibold">$5,42k</span>
+                <p class="card-text fs-6 text-secondary mt-2">
+                  <i class="me-2 bi bi-cursor-fill orange-span"></i></i>10 Days Trip
+                </p>
+                <div class="text-end mt-2">
+                  <span class="text-end text-secondary"
+                    ><i class="me-2 bi bi-star-fill text-warning"></i>4.4</span
+                  >
+                </div>
+              </div>
             </div>
           </div>
           <div class="card col m-4 p-0 border-0 shadow-sm">
             <img src="./img/Imageb2.png" alt="" class="card-img" />
-            <div class="card-body ms-0 ps-3 pt-4">
-              <h5 class="card-title">London, UK</h5>
-              <p class="card-text fs-6 text-secondary pt-2">07 Days Trip</p>
+            <div class="card-body ms-0 ps-3">
+              <div class="row row-cols-2 d-flex">
+                <h5 class="card-title">London,UK</h5>
+                <span class="text-end orange-span fw-semibold">$2,42k</span>
+                <p class="card-text fs-6 text-secondary mt-2">
+                  <i class="me-2 bi bi-cursor-fill orange-span"></i></i>07 Days Trip
+                </p>
+                <div class="text-end mt-2">
+                  <span class="text-end text-secondary"
+                    ><i class="me-2 bi bi-star-fill text-warning"></i>4.7</span
+                  >
+                </div>
+              </div>
             </div>
           </div>
           <div class="card col m-4 p-0 border-0 shadow-sm">
             <img src="./img/Imageb3.png" alt="" class="card-img" />
-            <div class="card-body ms-0 ps-3 pt-4">
-              <h5 class="card-title">Osaka, Japan</h5>
-              <p class="card-text fs-6 text-secondary pt-2">10 Days Trip</p>
+            <div class="card-body ms-0 ps-3">
+              <div class="row row-cols-2 d-flex">
+                <h5 class="card-title">Osaka, Japan</h5>
+                <span class="text-end orange-span fw-semibold">$5,42k</span>
+                <p class="card-text fs-6 text-secondary mt-2">
+                  <i class="me-2 bi bi-cursor-fill orange-span"></i></i>10 Days Trip
+                </p>
+                <div class="text-end mt-2">
+                  <span class="text-end text-secondary"
+                    ><i class="me-2 bi bi-star-fill text-warning"></i>4.8</span
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -358,7 +422,7 @@
     >
       <div class="row container p-5 ps-0 d-flex align-items-center">
         <article class="col-5 ps-3 pe-5 me-3">
-          <h2 class="">
+          <h2 class="fw-semibold">
             What people say
             <span class="orange-span">about Us.</span>
           </h2>
@@ -396,7 +460,7 @@
     <section class="container-fluid mb-5" id="latest">
       <!--Inicia container para centrar el contenido-->
       <div class="container py-5">
-        <h2 class="text-center col mt-5">
+        <h2 class="text-center col mt-5 fw-semibold">
           Get update with <span class="orange-span">latest blog</span>
         </h2>
         <!--Inicia cards-->
@@ -454,7 +518,7 @@
       class="container bg-orange rounded-2 d-flex justify-content-center p-0 position-relative"
     >
       <div class="m-5 d-flex flex-column justify-content-center text-white">
-        <h2 class="text-center px-5">
+        <h2 class="text-center px-5 fw-semibold">
           Subscribe and get exclusive <br />
           deals & offer
         </h2>
